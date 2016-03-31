@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Life List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/base/reset.css">
+    <link rel="stylesheet" href="styles/base/fonts.css">
+    <link rel="stylesheet" href="styles/base/styles2.css">
+</head>
+<body>
+​
+<section class="todo-main-container">
+  <form id="newTaskForm">
+<label>New Item</label>
+<input id="newItemInput" placeholder="new task">
+<button id="saveNewItem">Save</button>
+<button id="cancel">Cancel</button>
+</form>
+</section>
+
+<div class='new-item-header'>
+	<button href="#" class="pull-right pencil" id="newListItem" style="">New</button>
+</div>
+<div id="newList">
+		New List
+	</div>
+
+<section class="status">
+  <div class="progress-box">
+  <h3>In Progress</h3>
+  <ul class="list-group" id="currentList"></ul>
+  </div>
+  <div>
+  </div>
+
+  <div class="progress-box">
+  <h3>Complete</h3>
+  <ul class="list-group" id="archivedList"></ul>
+  </div>
+</section>
+
+<div>
+  In Progress
+  <ul class="list-group" id="currentList"></ul>
+</div>
+<div>
+  Archived
+  <ul class="list-group" id="archivedList"></ul>
+</div>
+
+ </form></div>
+
+</section>
+
+<!-- FORM -->
+<!-- FOOTER -->
+
+   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+   <script src="todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+#todoApp li {
+  cursor: pointer;
+}
+​
+#todoApp li.done {
+    text-decoration: line-through;
+    color:gray;
+}
+
+#todoTitle {
+  font-family: sans-serif;
+}
